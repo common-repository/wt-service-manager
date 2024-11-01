@@ -1,0 +1,25 @@
+.manage-column.column-price{
+	width: 20%;
+}
+
+.manage-column.column-service_category{
+	width: 20%;
+}
+
+.link{
+	cursor: pointer;
+}
+
+.column-price .update:hover::after{
+	content: "\f464";
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	font: normal 17px/1 'dashicons';
+	vertical-align: top;
+}
+
+/* Виджет "Прямо сейчас" */
+#dashboard_right_now a.service-count:before,
+#dashboard_right_now span.service-count:before {
+	content: "\f330";
+}
